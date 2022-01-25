@@ -28,10 +28,6 @@ class BankAccountTest {
         assertFalse( BankAccount.isEmailValid(""));         // empty string
 
         
-        assertFalse(BankAccount.isEmailValid("ab.com"));  //no @ symbol
-        assertFalse(BankAccount.isEmailValid("@b.com"));  // no prefix
-        assertFalse(BankAccount.isEmailValid("a@"));      // no domain
-
     }
 
     @Test
